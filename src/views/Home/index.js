@@ -1,14 +1,18 @@
 import React from 'react';
 import * as S from './styles';
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import FilterCard from '../../components/FilterCard'
 
 function Home() {
     return (
         <S.Container>
-            <h2> Olá Mundo </h2>
+            <Header/>
             {/* Header */}
 
             <S.FilterArea>
             {/* FilterCard */}
+            <FilterCard/>
             </S.FilterArea>
 
             <S.Title>
@@ -17,7 +21,8 @@ function Home() {
             <S.Content>
             {/* TaskCard */}
             </S.Content>
-            {/* Header */}
+            {/* Footer */}
+            <Footer/>
         </S.Container>
     )
 }
