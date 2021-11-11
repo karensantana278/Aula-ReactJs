@@ -4,6 +4,7 @@ export const Container = styled.div`
   height: 60px;
   background: ${props => props.actived ? '#EE6B26' : '#20295F'};
   padding: 10px;
+  margin-bottom: 20px;
   cursor: pointer;
   border-radius: 5px;
   display: flex;
